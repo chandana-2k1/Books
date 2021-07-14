@@ -24,7 +24,9 @@ Network diagram:
 ![Screenshot from 2021-07-14 13-18-07](https://user-images.githubusercontent.com/66197408/125584137-8a1a3e17-373d-4366-9423-652a01d4e8a8.png)
 
 Run:
+
 Inorder to close the currently running containers, 
 ./network.sh down
+
 Inorder to bringup the hyperledger fabric network,
 ./network.sh up createChannel -ca -s couchdb

@@ -58,8 +58,8 @@ class AssetTransfer extends Contract {
 
         for (const asset of assets) {
             asset.docType = 'asset';
-            await ctx.stub.putState(asset.ID, Buffer.from(JSON.stringify(asset)));
-            console.info(`Asset ${asset.ID} initialized`);
+            await ctx.stub.putState(asset.bookid, Buffer.from(JSON.stringify(asset)));
+            console.info(`Asset ${asset.bookid} initialized`);
         }
     }
 
